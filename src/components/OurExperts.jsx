@@ -5,8 +5,8 @@ export default function OurExperts() {
     const [selectedExpert, setSelectedExpert] = useState(0);
     const experts = [
         { name: 'Иван Петров', width: selectedExpert === 0 ? '400px' : '250px' },
-        { name: 'Иван Петров', width: selectedExpert === 1 ? '400px' : '250px' },
-        { name: 'Иван Петров', width: selectedExpert === 2 ? '400px' : '250px' }
+        { name: 'Петр Иванов', width: selectedExpert === 1 ? '400px' : '250px' },
+        { name: 'Георгий Алексеев', width: selectedExpert === 2 ? '400px' : '250px' }
     ];
 
     const handleExpertClick = (index) => {
@@ -24,7 +24,7 @@ export default function OurExperts() {
                         <div className='flex flex-col justify-end' style={{
                             background: `url(${expert1})`,
                             height: '624px',
-                            width: '473px',
+                            width: '273px',
                             backgroundSize: 'cover',
                             backgroundRepeat: 'no-repeat',
                             backgroundPosition: 'center',
@@ -34,7 +34,7 @@ export default function OurExperts() {
                                 opacity: '0.5',
                                 background: '#000',
                                 borderRadiusBottom: '50px',
-                                width: '473px',
+                                width: '273px',
                                 height: '100px',
                                 borderRadius: '0 0 50px 50px',
                             }} className='text-white text-4xl pt-2 px-8'>

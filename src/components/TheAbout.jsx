@@ -56,7 +56,7 @@ const StyledImg = styled.img`
 export default function TheAbout() {
     return <>
         <Container className="py-28">
-            <div className="text-white italic text-6xl text-center max-w-6xl mx-auto">
+            <div className="text-white italic text-xl lg:text-6xl text-center max-w-6xl mx-auto">
                 "Индивидуальный подход к каждому клиенту."
             </div>
         </Container>
